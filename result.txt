@@ -1,0 +1,313 @@
+Parameters: hop_size=256, cutoff=250, min_distance=10
+Top-1 Results:
+Overall Accuracy: 64.49% (138/214 correct matches)
+Classical Accuracy: 45.79% (49/107 correct matches)
+Pop Accuracy: 83.96% (89/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 71.96% (154/214 correct matches)
+Classical Accuracy: 55.14% (59/107 correct matches)
+Pop Accuracy: 89.62% (95/106 correct matches)
+
+Parameters: hop_size=512, cutoff=250, min_distance=10
+Top-1 Results:
+Overall Accuracy: 64.02% (137/214 correct matches)
+Classical Accuracy: 49.53% (53/107 correct matches)
+Pop Accuracy: 79.25% (84/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 71.50% (153/214 correct matches)
+Classical Accuracy: 57.01% (61/107 correct matches)
+Pop Accuracy: 86.79% (92/106 correct matches)
+
+Parameters: hop_size=512, cutoff=500, min_distance=10
+Top-1 Results:
+Overall Accuracy: 64.95% (139/214 correct matches)
+Classical Accuracy: 51.40% (55/107 correct matches)
+Pop Accuracy: 79.25% (84/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 71.50% (153/214 correct matches)
+Classical Accuracy: 54.21% (58/107 correct matches)
+Pop Accuracy: 89.62% (95/106 correct matches)
+
+Parameters: hop_size=512, cutoff=1000, min_distance=10
+Top-1 Results:
+Overall Accuracy: 63.08% (135/214 correct matches)
+Classical Accuracy: 45.79% (49/107 correct matches)
+Pop Accuracy: 81.13% (86/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 70.09% (150/214 correct matches)
+Classical Accuracy: 51.40% (55/107 correct matches)
+Pop Accuracy: 89.62% (95/106 correct matches)
+
+Parameters: hop_size=256, cutoff=1000, min_distance=10
+Top-1 Results:
+Overall Accuracy: 64.02% (137/214 correct matches)
+Classical Accuracy: 44.86% (48/107 correct matches)
+Pop Accuracy: 83.96% (89/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 71.50% (153/214 correct matches)
+Classical Accuracy: 51.40% (55/107 correct matches)
+Pop Accuracy: 92.45% (98/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10
+Top-1 Results:
+Overall Accuracy: 65.89% (141/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 85.85% (91/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 72.43% (155/214 correct matches)
+Classical Accuracy: 52.34% (56/107 correct matches)
+Pop Accuracy: 93.40% (99/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=0.01
+Top-1 Results:
+Overall Accuracy: 65.89% (141/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 85.85% (91/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 72.43% (155/214 correct matches)
+Classical Accuracy: 52.34% (56/107 correct matches)
+Pop Accuracy: 93.40% (99/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=0.02
+Top-1 Results:
+Overall Accuracy: 65.42% (140/214 correct matches)
+Classical Accuracy: 45.79% (49/107 correct matches)
+Pop Accuracy: 85.85% (91/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 72.43% (155/214 correct matches)
+Classical Accuracy: 52.34% (56/107 correct matches)
+Pop Accuracy: 93.40% (99/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=0.005
+Top-1 Results:
+Overall Accuracy: 65.89% (141/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 85.85% (91/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 72.90% (156/214 correct matches)
+Classical Accuracy: 53.27% (57/107 correct matches)
+Pop Accuracy: 93.40% (99/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=0.001
+Top-1 Results:
+Overall Accuracy: 65.89% (141/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 85.85% (91/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 73.36% (157/214 correct matches)
+Classical Accuracy: 54.21% (58/107 correct matches)
+Pop Accuracy: 93.40% (99/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=1e-05
+Top-1 Results:
+Overall Accuracy: 66.36% (142/214 correct matches)
+Classical Accuracy: 47.66% (51/107 correct matches)
+Pop Accuracy: 85.85% (91/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 73.36% (157/214 correct matches)
+Classical Accuracy: 54.21% (58/107 correct matches)
+Pop Accuracy: 93.40% (99/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=1e-05
+Top-1 Results:
+Overall Accuracy: 46.26% (99/214 correct matches)
+Classical Accuracy: 28.97% (31/107 correct matches)
+Pop Accuracy: 64.15% (68/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 50.93% (109/214 correct matches)
+Classical Accuracy: 31.78% (34/107 correct matches)
+Pop Accuracy: 70.75% (75/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=1e-05,sr=11025
+Top-1 Results:
+Overall Accuracy: 42.52% (91/214 correct matches)
+Classical Accuracy: 28.04% (30/107 correct matches)
+Pop Accuracy: 57.55% (61/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 49.07% (105/214 correct matches)
+Classical Accuracy: 34.58% (37/107 correct matches)
+Pop Accuracy: 64.15% (68/106 correct matches)
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=1e-05,sr=6000
+Top-1 Results:
+Overall Accuracy: 30.37% (65/214 correct matches)
+Classical Accuracy: 20.56% (22/107 correct matches)
+Pop Accuracy: 40.57% (43/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 34.58% (74/214 correct matches)
+Classical Accuracy: 21.50% (23/107 correct matches)
+Pop Accuracy: 48.11% (51/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=1e-05,sr=6000
+Top-1 Results:
+Overall Accuracy: 63.55% (136/214 correct matches)
+Classical Accuracy: 57.01% (61/107 correct matches)
+Pop Accuracy: 70.75% (75/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 69.63% (149/214 correct matches)
+Classical Accuracy: 59.81% (64/107 correct matches)
+Pop Accuracy: 80.19% (85/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=5,threshold=1e-05,sr=11025
+Top-1 Results:
+Overall Accuracy: 59.81% (128/214 correct matches)
+Classical Accuracy: 40.19% (43/107 correct matches)
+Pop Accuracy: 80.19% (85/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 67.29% (144/214 correct matches)
+Classical Accuracy: 48.60% (52/107 correct matches)
+Pop Accuracy: 86.79% (92/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=3,threshold=1e-05,sr=6500
+Top-1 Results:
+Overall Accuracy: 53.74% (115/214 correct matches)
+Classical Accuracy: 39.25% (42/107 correct matches)
+Pop Accuracy: 68.87% (73/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 63.08% (135/214 correct matches)
+Classical Accuracy: 45.79% (49/107 correct matches)
+Pop Accuracy: 81.13% (86/106 correct matches)
+
+Parameters: hop_size=256, cutoff=500, min_distance=7,threshold=1e-05,sr=6500
+Top-1 Results:
+Overall Accuracy: 65.42% (140/214 correct matches)
+Classical Accuracy: 58.88% (63/107 correct matches)
+Pop Accuracy: 72.64% (77/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 71.96% (154/214 correct matches)
+Classical Accuracy: 61.68% (66/107 correct matches)
+Pop Accuracy: 83.02% (88/106 correct matches)
+
+Parameters: hop_size=128, cutoff=500, min_distance=5,threshold=1e-05,sr=6500
+Top-1 Results:
+Overall Accuracy: 59.35% (127/214 correct matches)
+Classical Accuracy: 44.86% (48/107 correct matches)
+Pop Accuracy: 74.53% (79/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 63.55% (136/214 correct matches)
+Classical Accuracy: 47.66% (51/107 correct matches)
+Pop Accuracy: 80.19% (85/106 correct matches)
+
+Parameters: hop_size=128, cutoff=10, min_distance=7,threshold=0.001,sr=6500
+Top-1 Results:
+Overall Accuracy: 58.41% (125/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 70.75% (75/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 66.36% (142/214 correct matches)
+Classical Accuracy: 56.07% (60/107 correct matches)
+Pop Accuracy: 77.36% (82/106 correct matches)
+
+Parameters: hop_size=128, cutoff=10, min_distance=7,threshold=0.01,sr=6500
+Top-1 Results:
+Overall Accuracy: 58.41% (125/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 70.75% (75/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 66.36% (142/214 correct matches)
+Classical Accuracy: 56.07% (60/107 correct matches)
+Pop Accuracy: 77.36% (82/106 correct matches)
+Parameters: hop_size=64, cutoff=10, min_distance=7,threshold=0.0001,sr=6500
+Top-1 Results:
+Overall Accuracy: 51.87% (111/214 correct matches)
+Classical Accuracy: 40.19% (43/107 correct matches)
+Pop Accuracy: 64.15% (68/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 60.75% (130/214 correct matches)
+Classical Accuracy: 46.73% (50/107 correct matches)
+Pop Accuracy: 75.47% (80/106 correct matches)
+
+###########################RUNS ON A SUBSET OF DATA ####################################
+
+
+Parameters: hop_size=128, cutoff=100, min_distance=10,threshold=0.001,sr=11025
+Top-1 Results:
+Overall Accuracy: 57.14% (36/63 correct matches)
+Classical Accuracy: 29.63% (8/27 correct matches)
+Pop Accuracy: 77.78% (28/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 65.08% (41/63 correct matches)
+Classical Accuracy: 44.44% (12/27 correct matches)
+Pop Accuracy: 80.56% (29/36 correct matches)
+
+
+Parameters: hop_size=128, min_distance=6,threshold=0.01,sr=11025,target_zone_time=20, target_zone_freq=10, fan_out=50
+Top-1 Results:
+Overall Accuracy: 34.92% (22/63 correct matches)
+Classical Accuracy: 14.81% (4/27 correct matches)
+Pop Accuracy: 50.00% (18/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 42.86% (27/63 correct matches)
+Classical Accuracy: 22.22% (6/27 correct matches)
+Pop Accuracy: 58.33% (21/36 correct matches)
+
+Parameters: hop_size=128, min_distance=6,threshold=0.001,sr=11025,target_zone_time=40, target_zone_freq=40, fan_out=50
+Top-1 Results:
+Overall Accuracy: 39.68% (25/63 correct matches)
+Classical Accuracy: 7.41% (2/27 correct matches)
+Pop Accuracy: 63.89% (23/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 55.56% (35/63 correct matches)
+Classical Accuracy: 22.22% (6/27 correct matches)
+Pop Accuracy: 80.56% (29/36 correct matches)
+
+Parameters: hop_size=256, cutoff=100, min_distance=8,threshold=0.001,sr=11025,target_zone_time=60, target_zone_freq=60, fan_out=50
+Top-1 Results:
+Overall Accuracy: 53.97% (34/63 correct matches)
+Classical Accuracy: 29.63% (8/27 correct matches)
+Pop Accuracy: 72.22% (26/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 63.49% (40/63 correct matches)
+Classical Accuracy: 44.44% (12/27 correct matches)
+Pop Accuracy: 77.78% (28/36 correct matches)
+
+Parameters: hop_size=128, cutoff=100, min_distance=10,threshold=0.001,sr=11025,target_zone_time=60, target_zone_freq=60, fan_out=50
+Top-1 Results:
+Overall Accuracy: 36.51% (23/63 correct matches)
+Classical Accuracy: 18.52% (5/27 correct matches)
+Pop Accuracy: 50.00% (18/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 46.03% (29/63 correct matches)
+Classical Accuracy: 25.93% (7/27 correct matches)
+Pop Accuracy: 61.11% (22/36 correct matches)
+
+Parameters: hop_size=128, cutoff=100, min_distance=6,threshold=0.001,sr=11025,target_zone_time=30, target_zone_freq=30, fan_out=50
+Top-1 Results:
+Overall Accuracy: 30.16% (19/63 correct matches)
+Classical Accuracy: 7.41% (2/27 correct matches)
+Pop Accuracy: 47.22% (17/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 38.10% (24/63 correct matches)
+Classical Accuracy: 14.81% (4/27 correct matches)
+Pop Accuracy: 55.56% (20/36 correct matches)
+
+Parameters: hop_size=128, cutoff=100, min_distance=4,threshold=0.001,sr=11025,target_zone_time=40, target_zone_freq=40, fan_out=50
+Top-1 Results:
+Overall Accuracy: 23.81% (15/63 correct matches)
+Classical Accuracy: 0.00% (0/27 correct matches)
+Pop Accuracy: 41.67% (15/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 31.75% (20/63 correct matches)
+Classical Accuracy: 7.41% (2/27 correct matches)
+Pop Accuracy: 50.00% (18/36 correct matches)
+
+Parameters: hop_size=128, cutoff=100, min_distance=4,threshold=0.001,sr=11025,target_zone_time=40, target_zone_freq=40, fan_out=50
+Top-1 Results:
+Overall Accuracy: 23.81% (15/63 correct matches)
+Classical Accuracy: 0.00% (0/27 correct matches)
+Pop Accuracy: 41.67% (15/36 correct matches)
+Top-3 Results:
+Overall Accuracy: 31.75% (20/63 correct matches)
+Classical Accuracy: 7.41% (2/27 correct matches)
+Pop Accuracy: 50.00% (18/36 correct matches)
+
+#### WHOLE DATASET
+Parameters: hop_size=256, cutoff=500, min_distance=10,threshold=0001,sr=22050,target_zone_time=200, target_zone_freq=80, fan_out=30
+Top-1 Results:
+Overall Accuracy: 63.55% (136/214 correct matches)
+Classical Accuracy: 45.79% (49/107 correct matches)
+Pop Accuracy: 82.08% (87/106 correct matches)
+Top-3 Results:
+Overall Accuracy: 71.96% (154/214 correct matches)
+Classical Accuracy: 55.14% (59/107 correct matches)
+Pop Accuracy: 89.62% (95/106 correct matches)
+

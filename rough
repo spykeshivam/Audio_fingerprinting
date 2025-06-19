@@ -1,0 +1,109 @@
+import os
+import random
+from IPython.display import Audio, display
+from pathlib import Path
+
+def play_random_piano_noise_sample(output_folder="noisy_piano_norm_rms"):
+    """
+    Randomly selects a noisy piano file and plays it along with its original components.
+    
+    Args:
+        output_folder (str): Path to the folder containing the generated noisy piano files
+    """
+    
+    # Get all wav files in the output folder
+    wav_files = [f for f in os.listdir(output_folder) if f.endswith('.wav')]
+    
+    if not wav_files:
+        print(f"No wav files found in '{output_folder}' folder")
+        return
+    
+    # Randomly select a wav file
+    selected_wav = random.choice(wav_files)
+    print(selected_wav)
+    wav_path = os.path.join(output_folder, selected_wav)
+    
+    # Get corresponding text file
+    txt_filename = selected_wav.replace('.wav', '.txt')
+    txt_path = os.path.join(output_folder, txt_filename)
+    
+    if not os.path.exists(txt_path):
+        print(f"Text file not found: {txt_path}")
+        return
+    
+    # Read the text file to extract original paths
+    try:
+        with open(txt_path, 'r') as f:
+            lines = f.readlines()
+        
+        noise_path = None
+        piano_path = None
+        snr_value = None
+        
+        for line in lines:
+            if line.startswith("Noise file:"):
+                noise_path = line.split("Noise file:")[1].strip()
+            elif line.startswith("Piano file:"):
+                piano_path = line.split("Piano file:")[1].strip()
+            elif line.startswith("SNR (dB):"):
+                snr_value = line.split("SNR (dB):")[1].strip()
+        
+        # Display information
+        print("="*60)
+        print(f" Playing Random Sample: {selected_wav}")
+        print("="*60)
+        print(f"SNR: {snr_value} dB")
+        print(f"Original Piano: {Path(piano_path).name if piano_path else 'Not found'}")
+        print(f"Added Noise: {Path(noise_path).name if noise_path else 'Not found'}")
+        print("="*60)
+        
+        # Play the noisy piano (mixed result)
+        print("\n Playing NOISY PIANO (Mixed Result):")
+        display(Audio(filename=wav_path))
+        
+        # Play original piano if path exists
+        if piano_path and os.path.exists(piano_path):
+            print(f"\n Playing ORIGINAL PIANO:")
+            display(Audio(filename=piano_path))
+        else:
+            print(f"\n Original piano file not found: {piano_path}")
+        
+        # Play noise if path exists
+        if noise_path and os.path.exists(noise_path):
+            print(f"\n🔊 Playing NOISE:")
+            display(Audio(filename=noise_path))
+        else:
+            print(f"\n Noise file not found: {noise_path}")
+            
+    except Exception as e:
+
+        
+        print(f"Error reading text file: {str(e)}")
+        return
+
+# Function to play multiple random samples
+def play_multiple_samples(output_folder="noisy_piano", num_samples=3):
+    """
+    Play multiple random samples for comparison.
+    
+    Args:
+        output_folder (str): Path to the folder containing the generated noisy piano files
+        num_samples (int): Number of random samples to play
+    """
+    print(f" Playing {num_samples} random samples...\n")
+    
+    for i in range(num_samples):
+        print(f"\n{'='*20} SAMPLE {i+1} {'='*20}")
+        play_random_piano_noise_sample(output_folder)
+        print("\n" + "="*50 + "\n")
+
+# Usage examples:
+# Play one random sample
+print(" SINGLE RANDOM SAMPLE:")
+play_random_piano_noise_sample()
+
+print("\n" + "="*80 + "\n")
+
+# Uncomment below to play multiple samples
+# print(" MULTIPLE RANDOM SAMPLES:")
+play_multiple_samples(num_samples=10)
