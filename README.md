@@ -1,6 +1,6 @@
 # Audio fingerprinting system
 
-A robust audio fingerprinting and recognition system that can identify songs from short audio samples.
+An audio fingerprinting and recognition system that can identify songs from short audio samples.
 
 # Overview:
 
@@ -106,6 +106,8 @@ This implementation is based on the audio fingerprinting concepts described in:
 
 Wang, A. (2003). "An Industrial-Strength Audio Search Algorithm." In ISMIR.
 Cano, P., et al. (2005). "A Review of Audio Fingerprinting." Journal of VLSI Signal Processing.
+
+To know more about the underlying concepts and development process visit my blog here: https://medium.com/@shivam01110011/audio-fingerprinting-aee18fb88d4a
 
 License
 MIT License
